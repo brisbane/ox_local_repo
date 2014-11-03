@@ -9,7 +9,9 @@ class ox_local_repo::params (
   $local_lustre_server_enabled        =  false,
   $local_lustre_server_reposerver     = undef,
   $local_lustre_server_priority       =  '8',
-  
+  $local_base_enabled        =  false,
+  $local_base_reposerver     = undef,
+  $local_base_priority       =  '8',
   
 )
 { 
