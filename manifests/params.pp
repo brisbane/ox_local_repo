@@ -12,6 +12,9 @@ class ox_local_repo::params (
   $local_base_enabled        =  false,
   $local_base_reposerver     = undef,
   $local_base_priority       =  '8',
+  $ox_hfs_enabled        =  false,
+#  $ox_hfs_reposerver     = undef,
+  $ox_hfs_priority       =  '8',
   
 )
 { 

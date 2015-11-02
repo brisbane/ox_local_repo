@@ -26,6 +26,9 @@ class ox_local_repo inherits ox_local_repo::params {
   if $local_base_enabled {
     include ox_local_repo::local_base
   }
+  if $ox_hfs_enabled {
+    include ox_local_repo::ox_hfs_repo
+  }
 } else {
    notice (" Your operating system ${::operatingsystem} will not have oxford-local repos installed")
  }
